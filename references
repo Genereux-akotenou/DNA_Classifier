@@ -1,0 +1,40 @@
+[understand fasta file format]
+https://omicstutorials.com/understanding-bioinformatics-file-formats-a-complete-guide/
+
+[Transcription]
+https://www.youtube.com/watch?v=mMzwH8LObso&ab_channel=JoyezSVT-S%C3%A9quencesVid%C3%A9osTh%C3%A9matiques
+
+[Traduction de l'ARNm]
+https://www.youtube.com/watch?v=1YvqBWpB4Qw&t=4s&ab_channel=JoyezSVT-S%C3%A9quencesVid%C3%A9osTh%C3%A9matiques
+
+[GENE_FAMILY]
+https://fr.wikipedia.org/wiki/Arabidopsis_thaliana
+Arabidopsis Facts
+The work of Gregor Mendel provided the foundation for modern plant genetics and the adoption of model plant species such as Arabidopsis thaliana (Figure 1). A. thaliana is a member of the crucifer family. Unlike other members of this phylogenetic group, which includes the mustards, canola, cabbage, broccoli, and cauliflower, Arabidopsis is not an agriculturally important species. It is an annual weed that populates sidewalk cracks and flower gardens around the world. Although the bitter taste of Arabidopsis leaves may not have been palatable to Mendel and his brothers, it is the geneticist’s dream plant. Like pea, Arabidopsis is self-fertile. Unlike pea, Arabidopsis completes its entire life cycle in only 45 days. The small stature and fecundity of Arabidopsis would also satisfy Mendel’s requirements for large sample sizes and replication in his genetic experiments. In 1 square foot, which could support a single pea plant, 500 Arabidopsis plants can be grown. A single Arabidopsis plant can produce about 100 times more seed than a pea plant. The international plant research community has widely adopted Arabidopsis as an experimental model system because it provides a way to more rapidly discover the mechanisms of plant development.
+
+`GPT`
+Arabidopsis thaliana: Arabidopsis thaliana is a small flowering plant belonging to the Brassicaceae family, which includes cabbage, broccoli, and mustard. It is widely used as a model organism in plant biology due to its relatively small genome size, short life cycle, and ease of genetic manipulation.
+CYP gene family: The cytochrome P450 (CYP) gene family encodes a large and diverse group of enzymes involved in various biological processes, including the synthesis and metabolism of endogenous compounds and the detoxification of xenobiotics (foreign substances). In plants, CYPs play crucial roles in the biosynthesis of secondary metabolites, hormone regulation, and responses to environmental stresses.
+
+`GPT`
+Arabidopsis thaliana: As previously mentioned, Arabidopsis thaliana is a model organism in plant biology due to its small genome size, short life cycle, and ease of genetic manipulation.
+BHLH gene family: The basic helix-loop-helix (BHLH) gene family encodes a group of transcription factors characterized by a conserved helix-loop-helix domain involved in DNA binding and protein dimerization. BHLH proteins regulate various biological processes in plants, including development, hormone signaling, and responses to environmental cues. They play crucial roles in controlling gene expression patterns and orchestrating complex regulatory networks.
+
+# ----- 
+# HOW TO CLASSIFY DNA SEQUANCES LOOKING AT SIMILARITY IN DIFFERENTES GENES-NUCLEOTIDES SEQUENCES
+# -----
+- Traditional sequence alignment
+https://medium.com/@xiaofan.luan/dna-sequence-classification-based-on-milvus-f87e87bc5ba9
+https://www.frontiersin.org/articles/10.3389/fbioe.2020.01032/full#h5
+https://en.wikipedia.org/wiki/K-mer#:~:text=Usually%2C%20the%20term%20k%2Dmer,total%20possible%20k%2Dmers%2C%20where
+https://en.wikipedia.org/wiki/Sequence_alignment
+
+
+Pendant ce temps j'ai pu lme familiarise avec le fichiers .fasta, j'ai lu dans le code le chargement des fichier de donnée en dataframe, et les differents models implementées(kn, svm, random forest) pour faire la classification. 
+
+https://www.researchgate.net/post/What_is_the_best_way_to_convert_input_DNA_sequences_of_variable_lengths_to_equal_lengths_to_increase_the_prediction_accuracy_using_Neural_Networks2
+
+https://ernest-bonat.medium.com/apply-machine-learning-algorithms-for-genomics-data-classification-132972933723
+
+https://academic.oup.com/bioinformatics/article/37/15/2112/6128680#2%20Materials%20and%20Methods
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8285202/
