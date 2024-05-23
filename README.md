@@ -41,7 +41,6 @@
 ### Model
 - **RandomForest**
 - **GaussianProcess**
-- **....**
 
 ### Todo
 - [Click to Open Notebook 2](./03-approach2_kmer_frequence.ipynb)
