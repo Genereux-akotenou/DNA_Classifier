@@ -1,3 +1,25 @@
+import matplotlib.pyplot as plt
+
+def scatter_features(X, y):
+    num_features = X.shape[1]
+    cols = 2  # number of columns for subplots
+    rows = (num_features + 1) // cols  # number of rows for subplots    
+    fig, axes = plt.subplots(rows, cols, figsize=(16, rows * 6))
+    axes = axes.flatten()  # flatten the axes array for easy iteration
+    for i in range(num_features):
+        feature = X.iloc[:, i]  # assuming X is a pandas DataFrame
+        axes[i].scatter(feature[y == 0], np.zeros_like(feature[y == 0]), label='Class 0', marker='o')
+        axes[i].scatter(feature[y == 1], np.ones_like(feature[y == 1]), label='Class 1', marker='x')
+        axes[i].set_xlabel(f'Feature {i}')
+        axes[i].set_ylabel('Class')
+        axes[i].set_title(f'Scatter plot of Feature {i} vs Class')
+        axes[i].legend()
+    for j in range(i + 1, len(axes)):
+        fig.delaxes(axes[j])
+    plt.tight_layout()
+    plt.show()
+
+
 class VISU:
     @staticmethod
     def plot_curve(history, list_of_metrics):
