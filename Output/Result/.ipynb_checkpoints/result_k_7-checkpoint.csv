@@ -1,0 +1,4 @@
+name,model,score,std_score,precision,recall,f1,feature_selection_method,k-mer,feature
+GaussianProcessClassifier,GaussianProcessClassifier(kernel=1**2 * RBF(length_scale=1)),0.9026315789473683,0.024404259198672902,0.9057758143080653,0.9312896405919663,0.9164112046266328,No,7,ALL
+GaussianProcessClassifier,GaussianProcessClassifier(kernel=1**2 * RBF(length_scale=1)),0.9026315789473683,0.024404259198672902,0.9057758143080653,0.9312896405919663,0.9164112046266328,No,7,ALL
+RandomForestClassifier,"RandomForestClassifier(max_depth=64, max_features=8, n_estimators=200)",0.7526315789473684,0.04663169775439301,0.7254076513166862,0.9221987315010571,0.8107581383043353,No,7,ALL
