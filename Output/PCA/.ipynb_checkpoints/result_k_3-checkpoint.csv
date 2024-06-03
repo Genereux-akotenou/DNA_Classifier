@@ -1,5 +1,4 @@
-name,model,score,feature_selection_method,k-mer,feature
-LogisticRegression,LogisticRegression(),0.8026315789473685,PCA,3,first 16.0 most informative
-LogisticRegression,LogisticRegression(),0.8026315789473685,PCA,3,first 16.0 most informative
-LogisticRegression,LogisticRegression(),0.8026315789473685,PCA,3,first 16.0 most informative
-LogisticRegression,LogisticRegression(),0.8026315789473685,PCA,3,first 16.0 most informative
+name,model,train_score,test_score,feature_selection_method,k-mer,feature
+LogisticRegression,LogisticRegression(),0.841720430107527,0.8421052631578947,PCA,3,first 60.8 most informative
+RandomForestClassifier,"RandomForestClassifier(max_depth=128, max_features=16, n_estimators=300)",0.8417204301075267,0.8421052631578947,PCA,3,first 60.8 most informative
+SVC,"SVC(C=0.1, gamma=0.001, kernel='linear')",0.8190322580645161,0.8947368421052632,PCA,3,first 60.8 most informative

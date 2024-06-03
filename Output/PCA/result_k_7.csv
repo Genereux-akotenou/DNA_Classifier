@@ -1,4 +1,0 @@
-name,model,score,feature_selection_method,k-mer,feature
-LogisticRegression,LogisticRegression(),0.9342105263157895,PCA,7,first 4096.0 most informative
-RandomForestClassifier,"RandomForestClassifier(max_depth=128, max_features=16, n_estimators=300)",0.881578947368421,PCA,7,first 4096.0 most informative
-SVC,"SVC(C=0.1, gamma=0.001, kernel='linear')",0.8552631578947368,PCA,7,first 4096.0 most informative

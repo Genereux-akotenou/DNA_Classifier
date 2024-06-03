@@ -1,4 +1,16 @@
-name,model,score,feature_selection_method,k-mer,feature
-LogisticRegression,LogisticRegression(),0.7894736842105263,PCA,3,first 16.0 most informative
-RandomForestClassifier,"RandomForestClassifier(max_depth=128, max_features=16, n_estimators=300)",0.7894736842105263,PCA,3,first 16.0 most informative
-SVC,"SVC(C=0.1, gamma=0.001, kernel='linear')",0.8026315789473685,PCA,3,first 16.0 most informative
+name,model,train_score,test_score,feature_selection_method,k-mer,feature
+LogisticRegression,LogisticRegression(),0.841720430107527,0.8421052631578947,PCA,3,first 60.8 most informative
+RandomForestClassifier,"RandomForestClassifier(max_depth=128, max_features=16, n_estimators=300)",0.8417204301075267,0.8421052631578947,PCA,3,first 60.8 most informative
+SVC,"SVC(C=0.1, gamma=0.001, kernel='linear')",0.8190322580645161,0.8947368421052632,PCA,3,first 60.8 most informative
+XGBClassifier,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=2, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=200, n_jobs=None,
+              num_parallel_tree=None, random_state=None, ...)",0.8189247311827957,0.8421052631578947,PCA,3,first 60.8 most informative
+AdaBoostClassifier,"AdaBoostClassifier(algorithm='SAMME', n_estimators=200)",0.7861290322580645,0.8421052631578947,PCA,3,first 60.8 most informative
