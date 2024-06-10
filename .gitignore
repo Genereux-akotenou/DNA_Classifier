@@ -8,3 +8,5 @@ Output/SeqEmbedding1D/CNN-SIMPLE-EMBEDDING.weights.h5
 Output/SeqEmbedding1D/CNN-SIMPLE-EMBEDDING.weights.h5
 Output/SeqEmbedding1D/CNN.weights.h5
 *.h5
+Output/SeqEmbedding1D/CNN.weights.h5
+Output/SeqEmbedding1D/CNN-SIMPLE-EMBEDDING.weights.h5
